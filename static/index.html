@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Medical Diagnosis System</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <header class="top-bar">
+        <span class="logo">MedAI Diagnostics</span>
+
+        <!-- Dark mode toggle -->
+        <button class="dark-toggle" onclick="toggleDarkMode()">🌙</button>
+    </header>
+
+    <main class="wrapper">
+        <section class="card">
+            <h1>Medical Image Analysis</h1>
+            <p class="subtitle">
+                AI-based diagnostic prediction from medical images
+            </p>
+
+            <div class="upload-box">
+                <input type="file" id="imageInput" accept="image/*" />
+                <label for="imageInput" class="upload-label">
+                    Click to upload medical image
+                </label>
+            </div>
+
+            <div class="preview">
+                <img id="previewImage" />
+            </div>
+
+            <button class="predict-btn" onclick="predict()">
+                Analyze Image
+            </button>
+
+            <!-- Result -->
+            <div id="result" class="result hidden">
+                <div id="riskBadge" class="risk-badge"></div>
+
+                <div class="confidence-section">
+                    <span>Confidence</span>
+                    <div class="progress-bar">
+                        <div id="progressFill"></div>
+                    </div>
+                    <span id="confidenceText"></span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            ⚠️ For educational purposes only. Not a substitute for professional medical advice.
+        </footer>
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
