@@ -43,7 +43,7 @@ Prediction Result
 - CNN (Convolutional Neural Network)
 - NumPy
 - OpenCV
-- Pillow
+- Pillow 
 
 ## Backend
 - FastAPI
