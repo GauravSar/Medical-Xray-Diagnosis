@@ -17,14 +17,14 @@ Chest X-rays
 - Easy to extend with new diseases
 
 # Brain Disease Classes
-Brain Glioma
-Brain Meningioma
-Brain Pituitary Tumor
-Normal Brain
+- Brain Glioma
+- Brain Meningioma
+- Brain Pituitary Tumor
+- Normal Brain
 
 # Chest Disease Classes
-Pneumonia
-Normal Chest
+- Pneumonia
+- Normal Chest
 
 # Project Architecture
 User Upload Image
@@ -39,23 +39,23 @@ Prediction Result
 
 # Tech Stack
 ## Machine Learning
-TensorFlow / Keras
-CNN (Convolutional Neural Network)
-NumPy
-OpenCV
-Pillow
+- TensorFlow / Keras
+- CNN (Convolutional Neural Network)
+- NumPy
+- OpenCV
+- Pillow
 
 ## Backend
-FastAPI
-Uvicorn
+- FastAPI
+- Uvicorn
 
 ## Frontend
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## Tools
-Python
-VS Code
-Jupyter Notebook
-Git & GitHub
+- Python
+- VS Code
+- Jupyter Notebook
+- Git & GitHub
