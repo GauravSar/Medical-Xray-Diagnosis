@@ -7,14 +7,14 @@ Brain X-rays / MRI Scans
 Chest X-rays
 
 # Features
-Upload Brain or Chest X-ray image
-Automatic disease detection
-Multiple disease classes supported
-FastAPI REST API backend
-Clean & professional frontend
-Real-time prediction results
-Deployment ready
-Easy to extend with new diseases
+- Upload Brain or Chest X-ray image
+- Automatic disease detection
+- Multiple disease classes supported
+- FastAPI REST API backend
+- Clean & professional frontend
+- Real-time prediction results
+- Deployment ready
+- Easy to extend with new diseases
 
 # Brain Disease Classes
 Brain Glioma
